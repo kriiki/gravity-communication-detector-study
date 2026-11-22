@@ -1,0 +1,282 @@
+{
+ "E1": {
+  "2": {
+   "threshold, authors' 35-60 s mean": [
+    3201,
+    20000
+   ],
+   "threshold, 30-60 s mean": [
+    3174,
+    20000
+   ],
+   "threshold, 30-60 s median": [
+    3748,
+    20000
+   ],
+   "logistic regression": [
+    3170,
+    20000
+   ],
+   "gradient boosting": [
+    3274,
+    20000
+   ]
+  },
+  "3": {
+   "threshold, authors' 35-60 s mean": [
+    1385,
+    20000
+   ],
+   "threshold, 30-60 s mean": [
+    1307,
+    20000
+   ],
+   "threshold, 30-60 s median": [
+    1821,
+    20000
+   ],
+   "logistic regression": [
+    1316,
+    20000
+   ],
+   "gradient boosting": [
+    1352,
+    20000
+   ]
+  },
+  "4": {
+   "threshold, authors' 35-60 s mean": [
+    714,
+    30000
+   ],
+   "threshold, 30-60 s mean": [
+    719,
+    30000
+   ],
+   "threshold, 30-60 s median": [
+    1264,
+    30000
+   ],
+   "logistic regression": [
+    710,
+    30000
+   ],
+   "gradient boosting": [
+    755,
+    30000
+   ]
+  },
+  "5": {
+   "threshold, authors' 35-60 s mean": [
+    325,
+    40000
+   ],
+   "threshold, 30-60 s mean": [
+    285,
+    40000
+   ],
+   "threshold, 30-60 s median": [
+    630,
+    40000
+   ],
+   "logistic regression": [
+    286,
+    40000
+   ],
+   "gradient boosting": [
+    312,
+    40000
+   ]
+  },
+  "6": {
+   "threshold, authors' 35-60 s mean": [
+    135,
+    60000
+   ],
+   "threshold, 30-60 s mean": [
+    109,
+    60000
+   ],
+   "threshold, 30-60 s median": [
+    317,
+    60000
+   ],
+   "logistic regression": [
+    114,
+    60000
+   ],
+   "gradient boosting": [
+    124,
+    60000
+   ]
+  }
+ },
+ "E2": {
+  "real noise (in-distribution)": {
+   "threshold, authors' 35-60 s mean": [
+    786,
+    30000
+   ],
+   "threshold, 30-60 s mean": [
+    741,
+    30000
+   ],
+   "threshold, 30-60 s median": [
+    1227,
+    30000
+   ],
+   "logistic regression": [
+    723,
+    30000
+   ],
+   "gradient boosting": [
+    769,
+    30000
+   ]
+  },
+  "white noise": {
+   "threshold, authors' 35-60 s mean": [
+    764,
+    30000
+   ],
+   "threshold, 30-60 s mean": [
+    479,
+    30000
+   ],
+   "threshold, 30-60 s median": [
+    1282,
+    30000
+   ],
+   "logistic regression": [
+    512,
+    30000
+   ],
+   "gradient boosting": [
+    567,
+    30000
+   ]
+  },
+  "pink (1/f) noise": {
+   "threshold, authors' 35-60 s mean": [
+    738,
+    30000
+   ],
+   "threshold, 30-60 s mean": [
+    621,
+    30000
+   ],
+   "threshold, 30-60 s median": [
+    681,
+    30000
+   ],
+   "logistic regression": [
+    651,
+    30000
+   ],
+   "gradient boosting": [
+    644,
+    30000
+   ]
+  },
+  "real noise + spikes (20/h, 60 nm/s2)": {
+   "threshold, authors' 35-60 s mean": [
+    951,
+    30000
+   ],
+   "threshold, 30-60 s mean": [
+    918,
+    30000
+   ],
+   "threshold, 30-60 s median": [
+    1377,
+    30000
+   ],
+   "logistic regression": [
+    908,
+    30000
+   ],
+   "gradient boosting": [
+    958,
+    30000
+   ]
+  },
+  "real noise + drift 10 nm/s2/sqrt(h), 200-bit msgs": {
+   "threshold, authors' 35-60 s mean": [
+    2574,
+    30000
+   ],
+   "threshold, 30-60 s mean": [
+    2520,
+    30000
+   ],
+   "threshold, 30-60 s median": [
+    2924,
+    30000
+   ],
+   "logistic regression": [
+    2524,
+    30000
+   ],
+   "gradient boosting": [
+    2517,
+    30000
+   ]
+  }
+ },
+ "E2w": {
+  "real noise (in-distribution)": {
+   "threshold, authors' 35-60 s mean": [
+    742,
+    30000
+   ],
+   "threshold, 30-60 s mean": [
+    733,
+    30000
+   ],
+   "threshold, 30-60 s median": [
+    1221,
+    30000
+   ],
+   "logistic regression (white-trained)": [
+    731,
+    30000
+   ],
+   "gradient boosting (white-trained)": [
+    762,
+    30000
+   ]
+  },
+  "pink (1/f) noise": {
+   "threshold, authors' 35-60 s mean": [
+    782,
+    30000
+   ],
+   "threshold, 30-60 s mean": [
+    661,
+    30000
+   ],
+   "threshold, 30-60 s median": [
+    708,
+    30000
+   ],
+   "logistic regression (white-trained)": [
+    660,
+    30000
+   ],
+   "gradient boosting (white-trained)": [
+    697,
+    30000
+   ]
+  }
+ },
+ "E3": {
+  "quintile_ber": [
+   0.11425,
+   0.00425,
+   0.000875,
+   0.000125,
+   0.0
+  ],
+  "low20_error_share": 0.9560669456066946
+ }
+}
